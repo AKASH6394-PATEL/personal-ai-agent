@@ -14,10 +14,11 @@ export function requiresApproval(action) {
 }
 
 export function approvalDecision(action, approved = false) {
+  const required = requiresApproval(action);
   return {
     action,
-    required: requiresApproval(action),
+    required,
     approved: Boolean(approved),
-    allowed: !requiresApproval(action) || Boolean(approved),
+    allowed: !required || Boolean(approved),
   };
 }
