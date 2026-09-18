@@ -1,7 +1,7 @@
 ---
 name: higgsfield
 version: 0.1.0
-description: Route image, video, audio, explainer, thumbnail, website and visual-production tasks to the official Higgsfield CLI/skills when connected.
+description: Prepare prompts, shot lists and production instructions for Higgsfield. For zero-cost generation, the user generates on higgsfield.ai manually. Use automated/API surfaces only when the user explicitly chooses a credit-consuming workflow.
 ---
 
 # Higgsfield Skill
@@ -28,4 +28,4 @@ Use the narrowest skill that matches the request. Use higgsfield-generate for ge
 
 Higgsfield is proprietary; the official platform/models are not open source. The public higgsfield-ai/skills repository is an agent-integration/skills repository.
 
-Never store Higgsfield credentials in this repo. Paid generation must require approval unless the user has explicitly enabled autonomous paid generation.
+Never store Higgsfield credentials in this repo. Free-first rule: use the Higgsfield website for free generations when available. Do not route free-generation work through MCP, CLI, plugins, Canvas, or other automated surfaces because those generations can deduct credits. Never enable paid generation unless the user explicitly asks for it.
