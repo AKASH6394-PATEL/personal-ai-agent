@@ -2,24 +2,29 @@
 
 A modular personal AI agent designed to plan tasks, use tools, request approvals for sensitive actions, maintain task state, and integrate with automation platforms such as n8n.
 
-## V1 Goals
+## V1 foundation
 
 - Natural-language task intake
-- Plan -> execute -> verify -> report loop
+- Plan -> execute -> verify -> report architecture
 - Tool abstraction layer
 - Approval gates for sensitive actions
-- Task state and lightweight memory interfaces
+- Task state and lightweight memory
 - GitHub-first development workflow
-- n8n integration-ready webhook/API boundary
+- n8n integration-ready architecture
 - Automated CI checks
-- Higgsfield media-generation integration contract
-- YouTube strategy skills for niche, title, script, retention and monetization workflows
 
-## Higgsfield integration
+## New creative layer
 
-The repository includes a safe adapter and local skill map for the official Higgsfield CLI/skills. Higgsfield's platform/models are proprietary; its public skills repository is an integration layer for coding agents.
+- Higgsfield official-skill integration contract
+- YouTube niche/title/retention/script/monetization skill
+- Visual-production handoff from YouTube strategy to Higgsfield
+- Cost/approval guardrails for paid generation
 
-Actual generation requires a Higgsfield account and authentication on the machine running the agent. Paid generation should require approval by default.
+## Important Higgsfield note
+
+The official public resource is the Higgsfield AI Skills repository. It provides agent skills and CLI workflows; it is not the same thing as open-sourcing Higgsfield's entire proprietary platform or model weights.
+
+Official source: https://github.com/higgsfield-ai/skills
 
 ## Security
 
@@ -27,4 +32,4 @@ Never commit API keys, tokens, passwords, or other secrets. Use environment vari
 
 ## Status
 
-V1 foundation is under active development.
+V1 foundation and Higgsfield/YouTube skill layer are under active development.
