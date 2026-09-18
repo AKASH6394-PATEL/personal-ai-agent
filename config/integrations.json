@@ -1,10 +1,12 @@
 {
   "higgsfield": {
-    "mode": "connected-agent-or-cli",
+    "mode": "free-first-manual-generation",
     "officialMcp": "https://mcp.higgsfield.ai/mcp",
     "cliCommand": "higgsfield",
     "credentialsInRepo": false,
-    "paidGenerationRequiresApproval": true
+    "paidGenerationRequiresApproval": true,
+    "automatedGeneration": "disabled-by-default",
+    "freeGenerationSurface": "https://higgsfield.ai"
   },
   "youtube": {
     "mode": "planned",
