@@ -1,0 +1,18 @@
+{
+  "higgsfield": {
+    "mode": "connected-agent-or-cli",
+    "officialMcp": "https://mcp.higgsfield.ai/mcp",
+    "cliCommand": "higgsfield",
+    "credentialsInRepo": false,
+    "paidGenerationRequiresApproval": true
+  },
+  "youtube": {
+    "mode": "planned",
+    "uploadRequiresOAuth": true,
+    "autoPublishRequiresExplicitApproval": true
+  },
+  "n8n": {
+    "mode": "planned",
+    "webhookBoundary": "/webhook/personal-ai-agent"
+  }
+}
