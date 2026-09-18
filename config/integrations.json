@@ -1,0 +1,20 @@
+{
+  "higgsfield": {
+    "mode": "free-first-manual-generation",
+    "officialMcp": "https://mcp.higgsfield.ai/mcp",
+    "cliCommand": "higgsfield",
+    "credentialsInRepo": false,
+    "paidGenerationRequiresApproval": true,
+    "automatedGeneration": "disabled-by-default",
+    "freeGenerationSurface": "https://higgsfield.ai"
+  },
+  "youtube": {
+    "mode": "planned",
+    "uploadRequiresOAuth": true,
+    "autoPublishRequiresExplicitApproval": true
+  },
+  "n8n": {
+    "mode": "planned",
+    "webhookBoundary": "/webhook/personal-ai-agent"
+  }
+}
