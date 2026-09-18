@@ -1,0 +1,14 @@
+{
+  "skills": [
+    {
+      "name": "higgsfield",
+      "localPath": "skills/higgsfield/SKILL.md",
+      "source": "https://github.com/higgsfield-ai/skills"
+    },
+    {
+      "name": "youtube-strategy",
+      "localPath": "skills/youtube-strategy/SKILL.md"
+    }
+  ],
+  "futureIntegrations": ["n8n", "GitHub", "web-research", "YouTube", "Telegram", "Google Drive"]
+}
