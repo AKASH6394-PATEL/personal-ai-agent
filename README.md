@@ -15,6 +15,10 @@ A modular personal AI agent designed to plan tasks, use tools, request approvals
 
 ## New creative layer
 
+### Free-first Higgsfield workflow
+
+The agent prepares research, scripts, shot lists and ready-to-paste Higgsfield prompts. Free generation is performed on higgsfield.ai. Automated Higgsfield surfaces are not used for the free path because Higgsfield states that generations through MCP, CLI, plugins and other automated surfaces can deduct credits.
+
 - Higgsfield official-skill integration contract
 - YouTube niche/title/retention/script/monetization skill
 - Visual-production handoff from YouTube strategy to Higgsfield
