@@ -8,7 +8,18 @@
     {
       "name": "youtube-strategy",
       "localPath": "skills/youtube-strategy/SKILL.md"
+    },
+    {
+      "name": "youtube-production",
+      "localPath": "skills/youtube-production/SKILL.md"
     }
   ],
-  "futureIntegrations": ["n8n", "GitHub", "web-research", "YouTube", "Telegram", "Google Drive"]
+  "futureIntegrations": [
+    "n8n",
+    "GitHub",
+    "web-research",
+    "YouTube",
+    "Telegram",
+    "Google Drive"
+  ]
 }
